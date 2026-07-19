@@ -1,0 +1,701 @@
+<div class="packages-wrapper">
+
+  <!-- =======================================
+       หมวดหมู่: 3 วัน 2 คืน (ยอดฮิต)
+       ======================================= -->
+  <div class="package-section">
+    <h2 class="section-title">แพ็กเกจ 3 วัน 2 คืน <span>(ยอดฮิต)</span></h2>
+    <div class="pricing-container">
+      
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <div class="sale-badge">ลด 20%</div>
+          <img src="https://lipelovers.com/wp-content/uploads/2026/07/1798.jpg" alt="Idyllic Concept Resort" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องพัก + ทริปดำน้ำ</p>
+          <h3 class="package-title">Idyllic Concept Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=500&auto=format&fit=crop" alt="Akira Lipe Resort" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องพัก + ทริปดำน้ำ</p>
+          <h3 class="package-title">Akira Lipe Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://lipelovers.com/jdjk" class="view-all-card">
+        <div class="view-all-content">
+          <div class="arrow-circle">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+          <h3>ไปดูราคาทั้งหมด</h3>
+          <p>แพ็กเกจ 3 วัน 2 คืน</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- =======================================
+       หมวดหมู่: 2 วัน 1 คืน
+       ======================================= -->
+  <div class="package-section">
+    <h2 class="section-title">แพ็กเกจ 2 วัน 1 คืน</h2>
+    <div class="pricing-container">
+      
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <div class="sale-badge">ขายดี</div>
+          <img src="https://lipelovers.com/wp-content/uploads/2026/07/img-4.jpg" alt="Sita Beach Resort" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องพัก + อาหารเช้า</p>
+          <h3 class="package-title">Sita Beach Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop" alt="Bundhaya Resort" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องพัก + อาหารเช้า</p>
+          <h3 class="package-title">Bundhaya Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://lipelovers.com/kked" class="view-all-card">
+        <div class="view-all-content">
+          <div class="arrow-circle">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+          <h3>ไปดูราคาทั้งหมด</h3>
+          <p>แพ็กเกจ 2 วัน 1 คืน</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- =======================================
+       หมวดหมู่: 4 วัน 3 คืน
+       ======================================= -->
+  <div class="package-section">
+    <h2 class="section-title">แพ็กเกจ 4 วัน 3 คืน <span>(จัดเต็ม)</span></h2>
+    <div class="pricing-container">
+      
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <img src="https://lipelovers.com/wp-content/uploads/2026/07/DSC-3844-1.jpg" alt="Zodiac Seesun Resort" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องพัก + ดำน้ำโซนใน&นอก</p>
+          <h3 class="package-title">Zodiac Seesun Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?w=500&auto=format&fit=crop" alt="Serendipity Resort" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องพักพูลวิลล่า + ดำน้ำ</p>
+          <h3 class="package-title">Serendipity Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://lipelovers.com/e1jl" class="view-all-card">
+        <div class="view-all-content">
+          <div class="arrow-circle">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+          <h3>ไปดูราคาทั้งหมด</h3>
+          <p>แพ็กเกจ 4 วัน 3 คืน</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- =======================================
+       หมวดหมู่ใหม่: ครอบครัว (พัก 3-6 ท่าน)
+       ======================================= -->
+  <div class="package-section">
+    <h2 class="section-title">แพ็กเกจแบบครอบครัว <span>(พัก 3-6 ท่าน)</span></h2>
+    <div class="pricing-container">
+      
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <div class="sale-badge">แนะนำ</div>
+          <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=500&auto=format&fit=crop" alt="Family Resort" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องพักครอบครัว + ดำน้ำ</p>
+          <h3 class="package-title">Wapi Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop" alt="Family Villa" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">แฟมิลี่วิลล่า + อาหารเช้า</p>
+          <h3 class="package-title">Lipe Power Beach</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="view-all-card">
+        <div class="view-all-content">
+          <div class="arrow-circle">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+          <h3>ไปดูราคาทั้งหมด</h3>
+          <p>แพ็กเกจครอบครัว</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- =======================================
+       หมวดหมู่ใหม่: ห้องบีชฟร้อน (ติดหาด)
+       ======================================= -->
+  <div class="package-section">
+    <h2 class="section-title">แพ็กเกจห้องบีชฟร้อน <span>(ติดหน้าหาด)</span></h2>
+    <div class="pricing-container">
+      
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=500&auto=format&fit=crop" alt="Beachfront Villa" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">บีชฟร้อนวิลล่า + ดำน้ำ</p>
+          <h3 class="package-title">Sita Beach Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <div class="sale-badge">ฮิตมาก</div>
+          <img src="https://images.unsplash.com/photo-1537504386708-410e527f311c?w=500&auto=format&fit=crop" alt="Beachfront Bungalow" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">บีชฟร้อนบังกะโล + ดำน้ำ</p>
+          <h3 class="package-title">Zodiac Seesun Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="view-all-card">
+        <div class="view-all-content">
+          <div class="arrow-circle">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+          <h3>ไปดูราคาทั้งหมด</h3>
+          <p>แพ็กเกจบีชฟร้อน</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- =======================================
+       หมวดหมู่ใหม่: ห้องติดสระ (Pool Access)
+       ======================================= -->
+  <div class="package-section">
+    <h2 class="section-title">แพ็กเกจห้องติดสระ <span>(Pool Access)</span></h2>
+    <div class="pricing-container">
+      
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=500&auto=format&fit=crop" alt="Pool Access" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องพัก Pool Access + ดำน้ำ</p>
+          <h3 class="package-title">Akira Lipe Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500&auto=format&fit=crop" alt="Pool Villa" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">พูลวิลล่าส่วนตัว + ดำน้ำ</p>
+          <h3 class="package-title">Idyllic Concept Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="view-all-card">
+        <div class="view-all-content">
+          <div class="arrow-circle">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+          <h3>ไปดูราคาทั้งหมด</h3>
+          <p>แพ็กเกจห้องติดสระ</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- =======================================
+       หมวดหมู่ใหม่: ห้องมีอ่างอาบน้ำ (Bathtub)
+       ======================================= -->
+  <div class="package-section">
+    <h2 class="section-title">แพ็กเกจห้องมีอ่างอาบน้ำ <span>(Bathtub)</span></h2>
+    <div class="pricing-container">
+      
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <div class="sale-badge">โรแมนติก</div>
+          <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=500&auto=format&fit=crop" alt="Bathtub Room" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องแกรนด์ดีลักซ์ + อ่างอาบน้ำ</p>
+          <h3 class="package-title">Bundhaya Resort</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-card resort-card">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996cb?w=500&auto=format&fit=crop" alt="Jacuzzi Villa" class="card-img">
+        </div>
+        <div class="card-content">
+          <p class="room-type">ห้องพักวิวทะเล + จากุซซี่</p>
+          <h3 class="package-title">Ten Moons Lipe</h3>
+          <div class="price-wrapper">
+            <span class="currency">฿</span>
+            <span class="price-number">X,XXX</span>
+            <span class="price-suffix">/ ท่าน</span>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="booking-btn">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="view-all-card">
+        <div class="view-all-content">
+          <div class="arrow-circle">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+          <h3>ไปดูราคาทั้งหมด</h3>
+          <p>แพ็กเกจห้องมีอ่างอาบน้ำ</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- =======================================
+     ส่วนของ CSS ควบคุมความสวยงาม (เหมือนเดิม)
+     ======================================= -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap');
+
+  .packages-wrapper {
+    font-family: 'Prompt', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0F4C81;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    border-left: 5px solid #FF8566;
+  }
+
+  .section-title span {
+    font-size: 1.2rem;
+    color: #ff3b30;
+    font-weight: 400;
+  }
+
+  .section-divider {
+    border: 0;
+    height: 1px;
+    background: #eef2f5;
+    margin: 50px 0;
+  }
+
+  .pricing-container {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 30px;
+    box-sizing: border-box;
+  }
+
+  .pricing-card {
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    width: 100%;
+    flex: 1 1 calc(33.333% - 30px);
+    max-width: 350px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  }
+
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; 
+    overflow: hidden;
+    background-color: #f7f7f7;
+  }
+
+  .card-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .sale-badge {
+    position: absolute;
+    top: 15px;
+    right: -35px;
+    background-color: #ff3b30;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 35px;
+    transform: rotate(45deg);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    z-index: 2;
+  }
+
+  .room-type {
+    font-size: 0.9rem;
+    color: #777777;
+    margin: 0 0 5px 0;
+  }
+
+  .package-title {
+    color: #333333;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .price-wrapper {
+    margin-bottom: 25px;
+    color: #0F4C81;
+  }
+  
+  .currency {
+    font-size: 1.2rem;
+    font-weight: 600;
+    vertical-align: top;
+    margin-right: 2px;
+  }
+
+  .price-number {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+
+  .price-suffix {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #777777;
+    margin-left: 5px;
+  }
+
+  .btn-wrapper {
+    margin-top: auto;
+    padding-top: 10px;
+  }
+
+  .booking-btn {
+    display: block;
+    background-color: #0F4C81; 
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(15, 76, 129, 0.2); 
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+  }
+
+  .booking-btn:hover {
+    background-color: #155d9c; 
+    box-shadow: 0 6px 12px rgba(15, 76, 129, 0.3);
+    transform: translateY(-1px);
+  }
+  
+  .booking-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(15, 76, 129, 0.2);
+  }
+
+  /* =======================================
+     ดีไซน์กล่อง "ไปดูราคาทั้งหมด" 
+     ======================================= */
+  .view-all-card {
+    background-color: #f4f8fb;
+    border: 2px dashed #0F4C81;
+    border-radius: 12px;
+    width: 100%;
+    flex: 1 1 calc(33.333% - 30px);
+    max-width: 350px;
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 40px 20px;
+  }
+
+  .view-all-content {
+    text-align: center;
+  }
+
+  .arrow-circle {
+    width: 64px;
+    height: 64px;
+    background-color: #0F4C81;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    transition: all 0.3s ease;
+  }
+
+  .view-all-content h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #0F4C81;
+    margin: 0 0 5px;
+    transition: all 0.3s ease;
+  }
+
+  .view-all-content p {
+    font-size: 0.95rem;
+    color: #777777;
+    margin: 0;
+    transition: all 0.3s ease;
+  }
+
+  .view-all-card:hover {
+    background-color: #0F4C81;
+    border-color: #0F4C81;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(15, 76, 129, 0.2);
+  }
+
+  .view-all-card:hover .arrow-circle {
+    background-color: #ffffff;
+    color: #0F4C81;
+  }
+
+  .view-all-card:hover h3,
+  .view-all-card:hover p {
+    color: #ffffff;
+  }
+
+  @media (max-width: 768px) {
+    .pricing-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+    .pricing-card, .view-all-card {
+      max-width: 100%;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      text-align: center;
+      border-left: none;
+      border-bottom: 3px solid #FF8566;
+      display: inline-block;
+      padding-left: 0;
+      padding-bottom: 10px;
+    }
+  }
+</style>
