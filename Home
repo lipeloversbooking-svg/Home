@@ -1,0 +1,211 @@
+<div class="pricing-container">
+  
+  <div class="pricing-card">
+    <div class="image-wrapper">
+      <div class="sale-badge">ลด 30%</div>
+      <img src="https://lipelovers.com/wp-content/uploads/2026/07/1798.jpg" alt="ทริป 3 วัน 2 คืน" class="card-img">
+    </div>
+    <div class="card-content">
+      <h3 class="package-title">ราคา 3 วัน 2 คืน</h3>
+      <div class="price-wrapper">
+        <span class="currency">฿</span>
+        <span class="price-number">4,XXX</span>
+      </div>
+      <div class="btn-wrapper">
+        <a href="https://lipelovers.com/jdjk" class="booking-btn">ดูราคา</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-card">
+    <div class="image-wrapper">
+      <div class="sale-badge">ลด 30%</div>
+      <img src="https://lipelovers.com/wp-content/uploads/2026/07/DSC-3844-1.jpg" alt="ทริป 4 วัน 3 คืน" class="card-img">
+    </div>
+    <div class="card-content">
+      <h3 class="package-title">ราคา 4 วัน 3 คืน</h3>
+      <div class="price-wrapper">
+        <span class="currency">฿</span>
+        <span class="price-number">5,XXX</span>
+      </div>
+      <div class="btn-wrapper">
+        <a href="https://lipelovers.com/e1jl" class="booking-btn">ดูราคา</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-card">
+    <div class="image-wrapper">
+      <div class="sale-badge">ลด 20%</div>
+      <img src="https://lipelovers.com/wp-content/uploads/2026/07/img-4.jpg" alt="ทริป 2 วัน 1 คืน" class="card-img">
+    </div>
+    <div class="card-content">
+      <h3 class="package-title">ราคา 2 วัน 1 คืน</h3>
+      <div class="price-wrapper">
+        <span class="currency">฿</span>
+        <span class="price-number">2,XXX</span>
+      </div>
+      <div class="btn-wrapper">
+        <a href="https://lipelovers.com/kked" class="booking-btn">ดูราคา</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: transparent; /* กลืนไปกับพื้นหลังเว็บ */
+    font-family: 'Prompt', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .pricing-card {
+    background: #ffffff;
+    border: 1px solid #EEEEEE;
+    border-radius: 16px; /* ขอบมนขึ้นให้ดูพรีเมียม */
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  /* ลูกเล่นตอนเมาส์ชี้ที่การ์ด */
+  .pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    border-color: #00A8B5; /* เส้นขอบเปลี่ยนเป็นสีฟ้า */
+  }
+
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* อัตราส่วน 16:9 */
+    overflow: hidden;
+    background-color: #f7f7f7;
+  }
+
+  .card-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  /* ซูมรูปภาพนิดนึงตอน Hover */
+  .pricing-card:hover .card-img {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .sale-badge {
+    position: absolute;
+    top: 15px;
+    right: -35px;
+    background-color: #ff3b30;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 35px;
+    transform: rotate(45deg);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    z-index: 2;
+  }
+
+  .package-title {
+    color: #1A1A1A;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .price-wrapper {
+    margin-bottom: 25px;
+    color: #1a1a1a;
+  }
+  
+  .currency {
+    font-size: 1.5rem;
+    font-weight: 600;
+    vertical-align: top;
+    margin-right: 2px;
+  }
+
+  .price-number {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+
+  .btn-wrapper {
+    margin-top: auto;
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  /* --- อัปเดตดีไซน์ปุ่ม "ดูราคา" --- */
+  .booking-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B5394; /* สีน้ำเงินหลัก */
+    color: #ffffff !important;
+    text-decoration: none !important;
+    height: 48px; /* ล็อคความสูง */
+    border-radius: 30px; /* เปลี่ยนเป็นทรงแคปซูล */
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(11, 83, 148, 0.2); 
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .booking-btn:hover {
+    background-color: #0a4478; 
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(11, 83, 148, 0.3);
+  }
+  
+  .booking-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(11, 83, 148, 0.2);
+  }
+
+  @media (max-width: 768px) {
+    .pricing-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+    .pricing-card {
+      max-width: 100%;
+    }
+  }
+</style>
