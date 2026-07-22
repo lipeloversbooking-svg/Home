@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รวมห้องพักครอบครัว - Lipe Lovers</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font (Prompt) -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: #f8fafc; /* พื้นหลังสีเทาอมฟ้าอ่อนสุดคลีน */
+        }
+    </style>
+</head>
+<body class="text-slate-800 pb-16">
+
+    <!-- Header Section (Minimal & Clean White Background) -->
+    <div class="bg-white py-10 mb-8 border-b border-slate-100 shadow-sm">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-2 tracking-wide">รวมห้องพักสำหรับครอบครัว</h1>
+            <p class="text-blue-600 font-medium text-base md:text-lg">เกาะหลีเป๊ะ สตูล</p>
+        </div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="container mx-auto px-4 max-w-7xl">
+        <div id="room-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Room cards will be dynamically injected here by Javascript -->
+        </div>
+    </div>
+
+    <!-- JavaScript Data and Renderer -->
+    <script>
+        const familyRooms = [
+            {
+                name: "ห้อง Family Jacuzzi Suite Garden View | Ananya Lipe",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/of94",
+                reviewUrl: "https://lipelovers.com/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Jacuzzi-Suite-Garden-View-4-_-Ananya-Lipe.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Jacuzzi Suite Pool View | Ananya Lipe",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/of94",
+                reviewUrl: "https://lipelovers.com/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Jacuzzi-Suite-Pool-View-4-_-Ananya-Lipe.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสระว่ายน้ำ"]
+            },
+            {
+                name: "ห้อง Family Suite Pool Access | Ananya Lipe",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/of94",
+                reviewUrl: "https://lipelovers.com/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Suite-Pool-Access-9-_-Ananya-Lipe.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "ติดสระ"]
+            },
+            {
+                name: "ห้อง The Superior Room Triple | Andaman Beach Resort by Zodiac",
+                capacity: "เข้าพักได้ 3 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/andaman-beach-resort-family-3d2n/",
+                reviewUrl: "https://lipelovers.com/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-andaman-beach-resort-by-zodiac-the-superior-room-triple/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-The-Superior-Room-Triple-5-_-Andaman-Beach-Resort-by-Zodiac.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดซันไรส์", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Bungalow | Bundhaya Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: "ขายดี",
+                priceUrl: "https://lipelovers.com/x2di",
+                reviewUrl: "https://lipelovers.com/bundhaya-resort-family-bungalow/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Bungalow-3-_-Bundhaya-Resort.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Garden Family Bungalow | Bundhaya Resort",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/x2di",
+                reviewUrl: "https://lipelovers.com/bundhaya-resort-garden-family-bungalow/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Garden-Family-Bungalow-2-_-Bundhaya-Resort-1.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Villa Family Bungalow | Bundhaya Resort",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/x2di",
+                reviewUrl: "https://lipelovers.com/bundhaya-resort-villa-family-bungalow/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Villa-Family-Bungalow-4-_-Bundhaya-Resort-1.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Garden Triple Bungalow | Bundhaya Resort",
+                capacity: "เข้าพักได้ 3 ท่าน เสริมได้ 1 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/x2di",
+                reviewUrl: "https://lipelovers.com/bundhaya-resort-garden-triple-bungalow/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Garden-Triple-Bungalow-6-_-Bundhaya-Resort.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Suit Sea View | Bundhaya Villas",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/3kh3",
+                reviewUrl: "https://lipelovers.com/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-bundhaya-villas-family-suite/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Suit-Sea-View-3-_-Bundhaya-Villas.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Deluxe Balcony Family Room | Bundhaya Villas",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/3kh3",
+                reviewUrl: "https://lipelovers.com/13721-2/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Deluxe-Balcony-Family-Room-1-_-Bundhaya-Villas-1.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Ocean View | Casa De Lipe",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/7sn6",
+                reviewUrl: "https://lipelovers.com/12456-2/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Ocean-View-1-_-Casa-De-Lipe-1.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดซันเซ็ต", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Grand Sea View Family | Chareena Hill Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/kdlt",
+                reviewUrl: "https://lipelovers.com/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-chareena-hill-beach-resort-grand-sea-view-family/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Grand-Sea-View-Family-5-_-Chareena-Hill-Beach-Resort-1.jpeg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Royal Sea View Family | Chareena Hill Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/kdlt",
+                reviewUrl: "https://lipelovers.com/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-chareena-hill-beach-resort-royal-sea-view-family/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Royal-Sea-View-Family-5-_-Chareena-Hill-Beach-Resort-1.jpeg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Superior Family | Chareena Hill Beach Resort",
+                capacity: "เข้าพักได้ 3 ท่าน เสริมได้ 1 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/kdlt",
+                reviewUrl: "https://lipelovers.com/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-chareena-hill-beach-resort-superior-family/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Superior-Family-1-_-Chareena-Hill-Beach-Resort-1.jpeg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Family Connecting Room | Dong Talay Lipe Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/yu3o",
+                reviewUrl: "https://lipelovers.com/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-dong-talay-lipe-beach-resort-family-connecting-room/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Connecting-Room-3-_-Dong-Talay-Lipe-Beach-Resort-1.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Bungalow | Mountain Resort",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: "ขายดี",
+                priceUrl: "https://lipelovers.com/m5c0",
+                reviewUrl: "https://lipelovers.com/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-mountain-resort-villa-family/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Bungalow-7-_-Mountain-Resort-1.jpeg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Two Bedroom Familiy Suite | Sita Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/1muo",
+                reviewUrl: "https://lipelovers.com/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-sita-beach-resort-family-2-bedroom/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Two-Bedrooms-Familiy-Suite-10-_-Sita-Beach-Resort.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Standard Family | Varin Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/ryal",
+                reviewUrl: "https://lipelovers.com/13544-2/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Standard-Family-2-_-Varin-Beach-Resort.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            }
+        ];
+
+        const container = document.getElementById('room-container');
+
+        container.innerHTML = familyRooms.map(room => {
+            // แยกชื่อห้องพัก และ ชื่อรีสอร์ท ออกจากเครื่องหมาย |
+            const nameParts = room.name.split(' | ');
+            const roomNameOnly = nameParts[0] ? nameParts[0].trim() : '';
+            const resortNameOnly = nameParts[1] ? nameParts[1].trim() : '';
+
+            // สร้าง HTML สำหรับ Tags ข้อมูล
+            const tagsHtml = room.tags.map(tag => 
+                `<span class="bg-blue-50/70 text-blue-800 border border-blue-100 text-[11px] px-2 py-0.5 rounded-md font-medium whitespace-nowrap">${tag}</span>`
+            ).join('');
+            
+            // สร้าง HTML สำหรับป้ายขายดี (Badge)
+            const badgeHtml = room.badge ? 
+                `<span class="absolute top-3 right-3 bg-amber-500 text-white text-[11px] font-semibold px-2.5 py-1 rounded-full shadow-md z-10 flex items-center gap-1">
+                    <svg class="w-3 h-3 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    ${room.badge}
+                </span>` : '';
+
+            // ป้องกันปัญหารูปไม่ขึ้นโดยการแปลงชื่อไฟล์ภาษาไทยใน URL อัตโนมัติ
+            const safeImageUrl = encodeURI(room.image.trim());
+
+            return `
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition-all duration-300 flex flex-col h-full group relative">
+                <!-- Image Container with Fixed Aspect Ratio -->
+                <div class="aspect-[4/3] w-full bg-slate-100 overflow-hidden relative shrink-0">
+                    ${badgeHtml}
+                    <img src="${safeImageUrl}" 
+                         onerror="this.src='https://placehold.co/600x400/f1f5f9/94a3b8?text=Image+Not+Found'" 
+                         alt="${room.name}" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                
+                <!-- Room Info Container -->
+                <div class="p-5 flex flex-col flex-grow justify-between">
+                    <div>
+                        <!-- Resort Name (Separate Line, Minimal Style) -->
+                        <div class="text-[11px] text-slate-400 font-light tracking-wider uppercase mb-1 truncate" title="${resortNameOnly}">
+                            ${resortNameOnly}
+                        </div>
+
+                        <!-- Room Name (Regular Weight & Fixed Height) -->
+                        <h3 class="text-[15px] font-normal text-slate-700 line-clamp-2 h-[3rem] mb-2 leading-relaxed" title="${roomNameOnly}">
+                            ${roomNameOnly}
+                        </h3>
+                        
+                        <!-- Room Capacity -->
+                        <p class="text-xs text-slate-500 font-medium mb-3 flex items-center gap-1.5">
+                            <span class="w-1.5 h-1.5 bg-teal-500 rounded-full inline-block"></span>
+                            ${room.capacity}
+                        </p>
+                        
+                        <!-- Fixed Height Tag Area -->
+                        <div class="flex flex-wrap gap-1 mb-4 h-[3rem] overflow-hidden content-start">
+                            ${tagsHtml}
+                        </div>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="space-y-2 pt-2 border-t border-slate-50 shrink-0">
+                        <div class="grid grid-cols-2 gap-2">
+                            <!-- ปุ่มดูรีวิวห้องพัก -->
+                            <a href="${room.reviewUrl}" target="_blank" class="block text-center text-xs font-medium py-2 rounded-lg border border-slate-200 text-slate-600 bg-slate-50/20 hover:bg-slate-50 transition-colors">
+                                ดูรีวิวห้องพัก
+                            </a>
+                            <!-- ปุ่มดูราคาแพ็คเกจ -->
+                            <a href="${room.priceUrl}" target="_blank" class="block text-center text-xs font-semibold py-2 rounded-lg border border-blue-200 text-blue-950 bg-blue-50/50 hover:bg-blue-50 transition-colors">
+                                ดูราคาแพ็คเกจ
+                            </a>
+                        </div>
+                        <!-- ปุ่มเช็คห้องว่าง/จองห้องพัก -->
+                        <a href="${room.bookingUrl}" target="_blank" class="block w-full text-center text-xs font-semibold py-2.5 rounded-lg bg-blue-900 text-white hover:bg-blue-950 transition-all shadow-sm">
+                            เช็คห้องว่าง / จองห้องพัก
+                        </a>
+                    </div>
+                </div>
+            </div>
+            `;
+        }).join('');
+    </script>
+</body>
+</html>
