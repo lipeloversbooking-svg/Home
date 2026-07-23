@@ -1,0 +1,176 @@
+ name: "ห้อง Family Jacuzzi Suite Garden View | Ananya Lipe",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/of94",
+                reviewUrl: "https://lipelovers.com/review-ananya-lipe/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Jacuzzi-Suite-Garden-View-4-_-Ananya-Lipe.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Jacuzzi Suite Pool View | Ananya Lipe",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/of94",
+                reviewUrl: "https://lipelovers.com/review-ananya-lipe/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Jacuzzi-Suite-Pool-View-4-_-Ananya-Lipe.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสระว่ายน้ำ"]
+            },
+            {
+                name: "ห้อง Family Suite Pool Access | Ananya Lipe",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/of94",
+                reviewUrl: "https://lipelovers.com/review-ananya-lipe/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Suite-Pool-Access-9-_-Ananya-Lipe.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "ติดสระ"]
+            },
+            {
+                name: "ห้อง The Superior Room Triple | Andaman Beach Resort by Zodiac",
+                capacity: "เข้าพักได้ 3 คน",
+                priceUrl: "https://lipelovers.com/of94",
+                url: "https://lipelovers.com/review-andaman-beach-resort-by-zodiac-the-superior-room-triple/",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-The-Superior-Room-Triple-5-_-Andaman-Beach-Resort-by-Zodiac.jpg",
+                tags: ["1ห้องนอนใหญ่", "เข้าพักสูงสุด 3 ท่าน", "หาดซันไรส์", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Bungalow | Bundhaya Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: "ขายดี",
+                priceUrl: "https://lipelovers.com/x2di",
+                reviewUrl: "https://lipelovers.com/bundhaya-resort-family-bungalow/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Bungalow-3-_-Bundhaya-Resort.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Garden Family Bungalow | Bundhaya Resort",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/x2di",
+                reviewUrl: "https://lipelovers.com/bundhaya-resort-garden-family-bungalow/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Garden-Family-Bungalow-2-_-Bundhaya-Resort-1.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Villa Family Bungalow | Bundhaya Resort",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/x2di",
+                reviewUrl: "https://lipelovers.com/bundhaya-resort-villa-family-bungalow/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Villa-Family-Bungalow-4-_-Bundhaya-Resort-1.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Garden Triple Bungalow | Bundhaya Resort",
+                capacity: "เข้าพักได้ 3 ท่าน เสริมได้ 1 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/x2di",
+                reviewUrl: "https://lipelovers.com/bundhaya-resort-garden-triple-bungalow/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Garden-Triple-Bungalow-6-_-Bundhaya-Resort.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Suit Sea View | Bundhaya Villas",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/3kh3",
+                reviewUrl: "https://lipelovers.com/review-bundhaya-villas-family-suite/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Suit-Sea-View-3-_-Bundhaya-Villas.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Deluxe Balcony Family Room | Bundhaya Villas",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/3kh3",
+                reviewUrl: "https://lipelovers.com/review-bundhaya-villas-deluxe-balcony-family-room/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Deluxe-Balcony-Family-Room-1-_-Bundhaya-Villas-1.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Ocean View | Casa De Lipe",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/7sn6",
+                reviewUrl: "https://lipelovers.com/review-casa-de-lipe-family-ocean-view/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Ocean-View-1-_-Casa-De-Lipe-1.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดซันเซ็ต", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Grand Sea View Family | Chareena Hill Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/kdlt",
+                reviewUrl: "https://lipelovers.com/review-chareena-hill-beach-resort-grand-sea-view-family/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Grand-Sea-View-Family-5-_-Chareena-Hill-Beach-Resort-1.jpeg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Royal Sea View Family | Chareena Hill Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/kdlt",
+                reviewUrl: "https://lipelovers.com/review-chareena-hill-beach-resort-royal-sea-view-family/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Royal-Sea-View-Family-5-_-Chareena-Hill-Beach-Resort-1.jpeg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Superior Family | Chareena Hill Beach Resort",
+                capacity: "เข้าพักได้ 3 ท่าน เสริมได้ 1 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/kdlt",
+                reviewUrl: "https://lipelovers.com/review-chareena-hill-beach-resort-superior-family/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Superior-Family-1-_-Chareena-Hill-Beach-Resort-1.jpeg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวทะเล"]
+            },
+            {
+                name: "ห้อง Family Connecting Room | Dong Talay Lipe Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/yu3o",
+                reviewUrl: "https://lipelovers.com/review-dong-talay-lipe-beach-resort-family-connecting-room/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Connecting-Room-3-_-Dong-Talay-Lipe-Beach-Resort-1.jpg",
+                tags: ["1 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Family Bungalow | Mountain Resort",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: "ขายดี",
+                priceUrl: "https://lipelovers.com/m5c0",
+                reviewUrl: "https://lipelovers.com/review-mountain-resort-villa-family/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Family-Bungalow-7-_-Mountain-Resort-1.jpeg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Two Bedroom Familiy Suite | Sita Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน เสริมได้ 2 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/1muo",
+                reviewUrl: "https://lipelovers.com/review-sita-beach-resort-family-2-bedroom/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Two-Bedrooms-Familiy-Suite-10-_-Sita-Beach-Resort.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
+            },
+            {
+                name: "ห้อง Standard Family | Varin Beach Resort",
+                capacity: "เข้าพักได้ 4 ท่าน",
+                badge: null,
+                priceUrl: "https://lipelovers.com/ryal",
+                reviewUrl: "https://lipelovers.com/review-varin-beach-resort-standard-family/",
+                bookingUrl: "https://lin.ee/TTKcizy",
+                image: "https://lipelovers.com/wp-content/uploads/2026/07/รูปห้อง-Standard-Family-2-_-Varin-Beach-Resort.jpg",
+                tags: ["2 ห้องนอนใหญ่", "หาดพัทยา", "วิวสวน"]
